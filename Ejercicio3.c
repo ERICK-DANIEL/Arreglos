@@ -4,7 +4,6 @@ la fecha, detallando el día (1 al 31) y el mes (1=enero, 12=diciembre), como
 respuesta muestre en pantalla el número de días que quedan hasta final de año*/
 
 #include <stdio.h>
-#include <stdlib.h>
 
 int main(){
     int dia;
@@ -13,7 +12,7 @@ int main(){
     int mes;
     int dias[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 
-    printf("Ingesa el dia y el mes:");
+    printf("Ingesa el dia y el mes: ");
     scanf("%d %d", &dia, &mes);
 
     diaDelMes = dias[mes - 1] - dia;
@@ -24,7 +23,7 @@ int main(){
 
     diaFinal = diaFinal + diaDelMes;
 
-    printf("Faltan %d dias para final de año", diaFinal);
+    printf("\nFaltan %d dias para final de ano", diaFinal);
     return 0;
 
 }

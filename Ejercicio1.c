@@ -6,6 +6,7 @@ int main() {
     float media = 0;
 
     for (int i = 0; i < 4; i++){
+        printf("Ingresa el numero %d: ", i+1);
         scanf("%f", &numeros[i]);
         suma += numeros[i];
     }

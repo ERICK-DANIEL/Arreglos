@@ -6,7 +6,7 @@ int main() {
     float numeros[5];
 
     for (int i = 0; i < 5; i++){
-        printf("Introcuce el numero %d: ", i);
+        printf("Introcuce el numero %d: ", i+1);
         scanf("%f", &numeros[i]);
     }
 
